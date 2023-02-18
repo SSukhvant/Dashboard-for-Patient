@@ -1,0 +1,33 @@
+.app__sidebar{
+    position: fixed;
+    width: 85px;
+    height: 100%;
+    border-right: 1px solid #ECECEC;
+    text-align: center;
+    .logo{
+           height: 71px;
+           width: 85px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           .logo-svg{
+            width: 50px;
+            height: 24px;
+           }
+         }
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: calc(100vh - 71px);
+        // gap: rem;
+         li{
+            a{
+                cursor: pointer;
+            }
+         }
+    }
+}

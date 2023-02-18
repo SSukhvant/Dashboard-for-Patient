@@ -1,0 +1,61 @@
+.appointments-container{
+    .appointments-navbar{
+        display: inline-block;
+        background: #F8F8F8;
+        padding: 5px;
+        border-radius: 5px;
+        .appointments-btn{
+            padding: 8px 28px;
+            font-family: 'Source Serif 4';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 140%;
+            color: #4469BA;
+            width: 283px;
+            height: 33px;
+            background: transparent;
+            border-radius: 5px;
+            border: none;
+            &:hover{
+                background: #FFFFFF;
+            }
+        }
+    }
+    .appointments-main{
+        margin-top: 30px;
+        padding: 25px;
+        border-radius: 10px;
+        background: #F8F8F8;
+        .appointments-head{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .treatments-btn{
+                padding: 8px 10px;
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 140%;
+                color: #6B6B6B;;
+                width: 170px;
+                height: 33px;
+                background: white;
+                border-radius: 5px;
+                border: none;
+            }
+        }
+    }
+    .appointments-body{
+        background: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 13px 23px;
+        .appointments-treatmenr{
+            border-left: 1px solid #6B6B6B;
+        }
+    }
+
+}
