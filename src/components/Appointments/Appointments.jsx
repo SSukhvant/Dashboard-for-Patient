@@ -40,6 +40,29 @@ const Appointments = () => {
     <button type='button'><ReactSVG src={image.note}/> Note</button>
     </div>
     </div>
+
+    <div className='appointments-body'>
+    <div className='appointments-date-time'>
+    <h2>26 Nov'19</h2>
+    <p>09:00 - 10:00</p>
+    </div>
+    <div className='appointments-treatment'>
+    <p>Treatments</p>
+    <h5>Open Access</h5>
+    </div>
+    <div className='appointments-dentist'>
+    <p>Dentist</p>
+    <h5>Drg. Adam H.</h5>
+    </div>
+    <div className='appointments-nurse'>
+    <p>Nurse</p>
+    <h5>Jessicamila</h5>
+    </div>
+    <div className='appointments-note'>
+    <button type='button'><ReactSVG src={image.note}/> Note</button>
+    </div>
+    </div>
+    
     </div>
     </div>
   )
